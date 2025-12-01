@@ -1,9 +1,4 @@
-// ARQUIVO: app/page.tsx
-
-/* Esta página (por enquanto) é um Server Component.
-  Ela não precisa de "use client" porque ainda não
-  estamos buscando dados ou usando 'useState'.
-*/
+"use client";
 
 import { AlurakutProfileSidebarMenuDefault } from "./_components/AlurakutMenu";
 import Box from "./_components/Box";
