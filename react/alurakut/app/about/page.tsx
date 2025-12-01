@@ -1,22 +1,10 @@
-"use client";
+// ARQUIVO: app/about/page.tsx
 
-import Link from "next/link";
-import {
-  Container,
-  Main,
-  Title,
-  Description,
-} from "../_components/sharedstyles";
-
-export default function About() {
+export default function AboutPage() {
   return (
-    <Container>
-      <Main>
-        <Title>About Page</Title>
-        <Description>
-          <Link href="/">&larr; Go Back</Link>
-        </Description>
-      </Main>
-    </Container>
+    <div className="about-container">
+      <h1>Página Sobre</h1>
+      <p>Esta é a página "sobre" do Alurakut.</p>
+    </div>
   );
 }
